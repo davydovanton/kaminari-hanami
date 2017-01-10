@@ -22,6 +22,10 @@ module Kaminari
       def link_to_if(page, name, _page, options, &block)
         link_to(name, page || '#', options)
       end
+
+      def paginatable_array(array, per: 10)
+        Kaminari.paginate_array(array).page(params[:page]).per(per)
+      end
     end
 
     module Model
