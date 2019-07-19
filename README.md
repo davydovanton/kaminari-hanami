@@ -1,5 +1,7 @@
 # Kaminari::Hanami
 
+**This repository is no longer maintain**
+
 kaminari-hanami is a Kaminari paginator's adapter gem for [hanami](http://hanamirb.org).
 
 ## Installation
